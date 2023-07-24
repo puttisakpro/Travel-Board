@@ -1,0 +1,155 @@
+body {
+	font-family: 'Oswald', 'Prompt', sans-serif;
+}
+
+.header {
+	background-color: #ffb300;
+}
+
+.wrap960 {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.hdp {
+	padding: 30px 0px;
+	
+	color: #FFF;
+}
+
+.hdl {
+	float: left;
+}
+
+.hdr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.menu {
+	background-color: #fcebbd;
+}
+
+.mna {
+	color: #ffb300;
+	padding: 6px 24px;
+	box-sizing: border-box;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	display: inline-block;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	text-decoration: none;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+}
+
+.cover{
+	background-image: url('../images/cover.jpg');
+	height: 450px;
+	background-repeat: no-repeat;
+	/* ถ้าใส่รูปเล็กกว่าขนาด มันจะทำรูปซ้ำไปเรื่อยๆ ใส่ตัวนี้ไปจะไม่ทำแบบนั้น */
+	background-attachment: fixed;
+	/* เวลาสก่อเมา รูปจะไม่ไหลตาม */
+	background-size: cover;
+	/* ทำให้ รูปกระจายเต็มหน้าจอ */
+	background-position: 0px -100px;
+	/* ตำแหน่งรูปสามารถจัดได้ */
+	overflow: auto;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+}
+
+.cvp {
+	text-align: center;
+	margin: 90px auto 0px auto;
+	width: 500px;
+	color: rgb(202, 13, 13);
+}
+
+.cvh1 {
+	font-size: 80px;
+}
+
+.cvh2 {
+	font-size: 36px;
+	margin: 20px 0px 40px 0px;
+}
+
+.cva {
+	padding: 12px 24px;
+	/* 12 บนล่าง 24 ซ้ายขวา */
+	box-sizing: border-box;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	display: inline-block;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	border-radius: 24px;
+	/* เส้นขอบมนๆ */
+	background-color: #ffb300;
+	text-decoration: none;
+	/* ขีดเส้นใต้หาย */
+	color: rgb(102, 94, 94);
+}
+
+.p1 {
+	margin: 0px auto;
+	height: 400px;
+
+}
+
+.p2 {
+	padding: 30px 10px;
+	width: 30%;
+	background-size: cover;
+}
+
+.p3 {
+	color: #ffb300;
+	padding: 6px 100px;
+	width: 30%;
+	box-sizing: border-box;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	display: inline-block;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+	text-decoration: none;
+	/* คอมเมนต์แบบบรรทัดเดียว */
+}
+
+.b1 {
+	
+	width: 30%;
+	padding: 10px 10px;
+}
+.b2
+{
+	
+	text-decoration: none;
+	box-sizing: border-box;
+	display: inline-block;	
+}
+.ิb22{
+		text-decoration: none;
+		display: inline-block;	
+		text-decoration: none;
+}
+
+.b3{
+	padding: 20px 20px;
+}
+.width100{
+	width: 100%;
+}
+
+/*
+display: inline   		 เรียงกันแนวนอน และมีพื้นที่จำกัด
+display: inline-block    เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด
+display: block   		เรียงกันแนวตั้ง และมีพื้นที่จำกัด
+      <div style="background-color: antiquewhite;">
+            <img src="images/picture6.jpg" style="display:block;width:100%; float: right; height: 150px; width: 150px;
+            padding: 10px 10px 10px 10px; margin: 60px 10px 10px 10px; box-sizing: border-box; text-decoration: none;" />
+             <img src="images/picture6.jpg" style="display:block;width:100%; float: right; height: 150px; width: 150px;
+             padding: 10px 10px 10px 10px; margin: 60px 10px 10px 10px; box-sizing: border-box; text-decoration: none;" />
+              <img src="images/picture6.jpg" style="display:block;width:100%; float: right; height: 150px; width: 150px;
+              padding: 10px 10px 10px 10px; margin: 60px 10px 10px 10px; box-sizing: border-box; text-decoration: none;" />
+            <H1 style="display:block;width:100%; float: left; height: 200px; width: 450px;
+            padding: 60px 90px;  box-sizing: border-box; text-decoration: none;"> จองโต๊ะล่วงหน้า @BaanArhan หรือ โทร 098-XXX-XXXX</H1>
+            <div style="clear:both;"></div>

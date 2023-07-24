@@ -1,0 +1,122 @@
+.ya{
+    text-decoration: none;
+    display: inline-block;
+}
+.pad10{
+	padding: 50px 10px 50px 10px;
+}
+.center {
+    text-align: center;
+    
+}
+.cover{
+    
+    margin: auto auto;
+}
+.width960 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top {
+    padding-top: 20px;
+}
+
+.w20 {
+    width: 20%;
+}
+.w30 {
+    width: 30%;
+}
+.w45 {
+    width: 45%;
+    margin: 15px 0 15px 0px;
+}
+
+.left {
+    float: left;
+
+
+}
+.mw{
+    margin: 0;
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
+.photo{
+    height: 100%; 
+    width: 100%;
+    margin: 15px 0 15px 0px;
+}
+.margin15 {
+    margin: 15px 0 15px 0px;
+}
+.w600{
+    width: 600px;
+    margin: 0 auto;
+}
+.margin40 {
+    margin-left: 40px;
+}
+.mart15{
+    margin-top: 15px;
+}
+.cvp {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.b22 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bcf {
+    background-color: rgb(252, 151, 1);
+    height: 50px;
+}
+.cover1{
+    background-color: rgb(244, 108, 5);
+    height: 9.375rem;
+    width: 100%;
+}
+.cover2{
+    background-color: rgb(11, 2, 54);
+    height: 16vw;
+    width:  100%;
+}
+.clear {
+    clear: both;
+}
+.www{
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.fre{
+    float: right;
+    width: 30%;
+}
+.fle{
+    float: left; 
+    width: 30%;
+}
+.eng{
+    font-size: 1vw;
+}
+.bc{
+    border-color: black;
+}
+.font{
+    font-size: calc(60%+0.8vmin);
+}
+@media only screen and (max-width: 37.5rem) {
+    body {
+        background-color: rgb(1, 7, 9);
+    }
+}
